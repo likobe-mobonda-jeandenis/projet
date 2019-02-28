@@ -1,0 +1,314 @@
+/* GENERALE*/
+
+*
+{
+	margin:0;
+	padding:0;
+}
+
+/* HEADER */
+#header
+{
+	height:120px;
+}
+#header h1
+{
+    font-family:'Crete Round', serif;
+	font-size:45px;
+    color:#444;
+    float:left;
+    margin-top:30px;
+    padding: 0 70px;
+    
+}
+.darkred
+{
+    color: #8B0000;
+}
+.wrapper nav ul li 
+{
+    float:right;
+    margin-top:55px;
+    padding: 0 10px;
+    display:inline-block;
+}
+
+.wrapper nav ul li a
+{
+    text-transform: uppercase;
+	font-weight:bold;
+    margin-right:10px;
+}
+
+/* MAIN-IMAGE*/
+
+#main-image
+{
+    height: 800px;
+    background: url('photo/j0.jpg') center;
+    animation: slide 20s infinite;
+}
+@keyframes slide
+{
+    10%
+    {
+        background: url('photo/j1.jpg');
+    }
+    30%
+    {
+        background: url('photo/j2.jpg');
+    }
+    70%
+    {
+        background: url('photo/j3.jpg');
+    }
+    90%
+    {
+        background: url('photo/j4.jpg');
+
+    }
+    100%
+    {
+        background: url('photo/j6.jpg');
+    }
+}
+
+#main-image h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+    color: aliceblue;
+    font-family: 'Playball', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;       
+}
+.button-1
+{
+	display:block;
+	width:120px;
+	height:50px;
+	background: #8B0000;
+	color:#fff;
+	font-size:20px;
+	margin:0 auto;
+	line-height:50px;
+	text-align:center;
+    border-radius:3px;
+    text-decoration: none;
+}
+
+/*STEPS*/
+
+#steps
+{
+    height: 325px;
+}
+
+.steps-1
+{
+    background: url('photo/j7.png')no-repeat top center;
+}
+
+.steps-2
+{
+	background: url('photo/j8.png')no-repeat top center;
+}
+.steps-3
+{
+    background: url('photo/j9.png')no-repeat top center;
+}
+
+#steps ul li
+{
+	width:300px;
+	float:left;
+    padding-top: 150px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 50px;
+    padding: 0 140px;
+}
+
+#steps ul li
+{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+}
+
+/*POSIBILITIES */
+
+#possibilities
+{
+    height:160px;
+}
+
+#possibilities
+{
+    background-color: #efefef;
+    padding: 60px 0;
+
+}
+
+#possibilities p
+{
+    text-align: center;
+}
+
+.overlay-1
+{
+    background: url('photo/article.jpg')no-repeat top center;
+    width: 400px;
+    height: 270px;
+    float: left;
+    margin-top:-57px;
+    padding: 0 250px;
+    border-radius: px;
+}
+
+.overlay-2
+{
+    background: url('photo/article-2.jpg')no-repeat top center;
+    width: 400px;
+    height: 270px;
+    float: right;
+    margin-top:-57px;
+    padding: 0 250px;
+}
+
+.overlay-11
+{
+    background: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 190px;
+    padding: 40px;
+    border-radius: 0px 0 0 0px;
+    font-size: 20px;
+}
+
+.overlay-12
+{
+    background: rgba(255,255,255,0.5);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+}
+
+
+.overlay-11 h4
+{
+    border-bottom: 1px solid #8B0000;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.overlay-12 h4
+{
+    border-bottom: 1px solid #8B0000;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-11
+{
+    color: #fff;
+    background-color: #8B0000;
+    padding: 6px 20px;
+    border-radius: 3px;
+    float: left;
+    text-decoration: none;
+}
+
+.button-12
+{
+    color: #fff;
+    background-color: #8B0000;
+    padding: 6px 20px;
+    border-radius: 3px;
+    float: left;
+    text-decoration: none;
+}
+
+/* CONTACT */
+
+#contact
+{
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3
+{
+    color:#8B0000;
+    font-size: 30px;
+    width: 300px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    border-bottom: 1 px solid #8B0000;
+    padding-bottom: 20px;
+}
+
+form
+{
+    margin: 60 px 0 20 px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 20px;
+    color: #8B0000;
+}
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #8B0000;
+    border-radius: 3px;
+}
+.button-3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #8B0000;
+}
+
+/* FOOTER */
+#footer
+{
+    height: 150px;
+    background-color: #444;
+}
+
+#footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-family:'Crete Round', serif;
+    font-size: 45px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+
+
+
+
